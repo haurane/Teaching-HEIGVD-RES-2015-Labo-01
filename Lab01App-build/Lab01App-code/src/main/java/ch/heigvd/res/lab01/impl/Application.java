@@ -1,24 +1,22 @@
 package ch.heigvd.res.lab01.impl;
 
-import ch.heigvd.res.lab01.impl.explorers.DFSFileExplorer;
-import ch.heigvd.res.lab01.impl.transformers.CompleteFileTransformer;
-import ch.heigvd.res.lab01.interfaces.IApplication;
-import ch.heigvd.res.lab01.interfaces.IFileExplorer;
-import ch.heigvd.res.lab01.interfaces.IFileVisitor;
-import ch.heigvd.res.lab01.quotes.QuoteClient;
-import ch.heigvd.res.lab01.quotes.Quote;
-
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import org.apache.commons.io.FileUtils;
+
+import ch.heigvd.res.lab01.impl.explorers.DFSFileExplorer;
+import ch.heigvd.res.lab01.impl.transformers.CompleteFileTransformer;
+import ch.heigvd.res.lab01.interfaces.IApplication;
+import ch.heigvd.res.lab01.interfaces.IFileExplorer;
+import ch.heigvd.res.lab01.interfaces.IFileVisitor;
+import ch.heigvd.res.lab01.quotes.Quote;
+import ch.heigvd.res.lab01.quotes.QuoteClient;
 
 /**
  *
